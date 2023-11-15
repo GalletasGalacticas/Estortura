@@ -33,6 +33,7 @@ import javax.swing.WindowConstants;
 import me.bodiw.App;
 import me.bodiw.EnsambladorMapper;
 import me.bodiw.Config;
+import me.bodiw.EnsambladorMapper;
 import me.bodiw.model.Word;
 import me.bodiw.process.AssemblerProcess;
 
