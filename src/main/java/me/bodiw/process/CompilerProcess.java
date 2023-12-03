@@ -21,7 +21,7 @@ public class CompilerProcess {
 
         String output = new String(p.getInputStream().readAllBytes());
 
-        if (output.contains("88110.ens-ERROR")) {
+        if (output.contains("88110.ens-ERROR") || output.contains("Programa no generado")) {
             throw new RuntimeException(output);
         } else if (output.contains("No pude abrir")) {
             throw new RuntimeException(output + code);
